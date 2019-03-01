@@ -24,7 +24,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.plyr.io/3.5.2/plyr.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 
 
@@ -47,23 +48,110 @@
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portofolio.html">Portofolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="testimonials.html">Testimonials</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="clients.html">Clients</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portofolio.html">Portofolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="testimonials.html">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="clients.html">Clients</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
       </ul>
     </div>
   </nav>
+
+  <main class="mb-5">
+    <div class="container">
+      <form>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label class="sr-only" for="name">name</label>
+            <div class="input-group mb-2">
+              <div class="input-group-prepend">
+                <div class="input-group-text"><i class="fas fa-user"></i></div>
+              </div>
+              <input type="text" class="form-control" id="name" placeholder="Your name">
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="sr-only" for="email">email</label>
+            <div class="input-group mb-2">
+              <div class="input-group-prepend">
+                <div class="input-group-text"><i class="fas fa-envelope"></i></div>
+              </div>
+              <input type="email" class="form-control" id="email" placeholder="Your e-mail">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <label class="sr-only" for="phone">Phone</label>
+            <div class="input-group mb-2">
+              <div class="input-group-prepend">
+                <div class="input-group-text"><i class="fas fa-phone"></i></div>
+              </div>
+              <input type="phone" class="form-control" id="phone" placeholder="Phone">
+            </div>
+          </div>
+
+          <div class="form-group col-md-6">
+              <select id="department" class="form-control">
+                <option value="">Select a department</option>
+                <option value="sales">Sales</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+          <!-- <div class="col-md-6">
+            <label class="sr-only" for="email">Department</label>
+            <div class="input-group mb-2">
+              <div class="input-group-prepend">
+                <div class="input-group-text"><i class="fas fa-building"></i></div>
+              </div>
+              <input type="text" class="form-control" id="department" placeholder="Select department">
+            </div>
+          </div> -->
+        </div><!--END ROW-->
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1"></label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+            placeholder="Type your message here"></textarea>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <p class="d-inline-block">Subject: </p>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+              <label class="form-check-label" for="inlineRadio1">General</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+              <label class="form-check-label" for="inlineRadio2">Say Hi</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+              <label class="form-check-label" for="inlineRadio3">Other</label>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="row">
+          <div class="col">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </main>
 
   <footer class="py-5">
     <div class="container">
