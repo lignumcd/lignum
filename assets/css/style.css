@@ -1,4 +1,21 @@
+body {
+    background: #f3f3f3;
+}
+
+.carousel {
+    padding: 4rem 0;
+}
+
 .carousel-item img {
     display: inline-block !important;
     margin-left: 5rem;
+}
+
+.active > a {
+    color: #4aa2d1;
+}
+
+footer {
+    background-color: #262b2f;
+    color: #ececec;
 }
