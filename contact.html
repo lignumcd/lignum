@@ -66,8 +66,53 @@
     </div>
   </nav>
 
-  <main class="mb-5">
+  <style>
+    main {
+      margin: 5rem 0;
+    }
+
+    .header {
+      margin: 3rem 0 3.5rem 0;
+    }
+
+    a[href^="tel:"],
+    a[href^="mailto:"] {
+      color: black;
+      text-decoration: none;
+    }
+    .fa-globe-americas {
+      color: blue;
+    }
+    .fa-fax {
+      color: rgb(49, 46, 46);
+    }
+    .fa-envelope.orange {
+      color: tomato;
+    }
+  </style>
+
+  <main>
     <div class="container">
+      <div class="row header">
+        <div class="col">
+          <h1>Get in touch</h1>
+        </div>
+      </div>
+      <div class="row text-center header">
+        <div class="col-sm-4">
+          <i class="fas fa-globe-americas fa-4x mb-2"></i>
+          <p>7010 SW 4th St, Miami, FL 33144</p>
+        </div>
+        <div class="col-sm-4">
+            <i class="fas fa-fax fa-4x mb-2"></i>
+            <a class="d-block" href="tel:+786-472-1833 ">Phone: (786)472-1833</a>
+            <a class="d-block" href="tel:+305-397-2204 ">Fax: (305)397-2204</a>
+        </div>
+        <div class="col-sm-4">
+            <i class="far fa-envelope orange fa-4x mb-2"></i>
+            <a class="d-block" href="mailto:info@lignumcd.com ">info@lignumcd.com </a>
+        </div>
+      </div>
       <form>
         <div class="row">
           <div class="col-md-6 mb-3">
