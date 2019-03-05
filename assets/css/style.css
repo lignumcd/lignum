@@ -19,3 +19,32 @@ footer {
     background-color: #262b2f;
     color: #ececec;
 }
+
+/* Form styling */
+main {
+    margin: 5rem 0;
+}
+
+.header {
+    margin: 3rem 0 3.5rem 0;
+}
+
+a[href^="tel:"],
+a[href^="mailto:"] {
+    color: black;
+    text-decoration: none;
+}
+.fa-globe-americas {
+    color: blue;
+}
+.fa-fax {
+    color: rgb(49, 46, 46);
+}
+.fa-envelope.orange {
+    color: tomato;
+}
+
+.fixed-bottom {
+    left: unset;
+    width: 15%;
+}
