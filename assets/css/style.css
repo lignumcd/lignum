@@ -20,6 +20,13 @@ footer {
     color: #ececec;
 }
 
+/* Home styling */
+.clients {
+    background-color: #000;
+    color: #fff;
+    padding: 4rem 0;
+}
+
 /* Form styling */
 main {
     margin: 5rem 0;
@@ -121,4 +128,78 @@ a[href^="mailto:"] {
 .hovereffect:hover .card-info {
     -webkit-transition-delay: .2s;
     transition-delay: .2s;
-}/* END of Porfofolio card zoom effect */
+}
+
+.scale-up-center {
+    -webkit-animation: scale-up-center 0.6s ease-in-out both;
+    animation: scale-up-center 0.6s ease-in-out both;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+        -webkit-transform: scale(0.5);
+        transform: scale(0.5);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+.fade-in-tr {
+	-webkit-animation: fade-in-tr 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in-tr 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+/**
+ * ----------------------------------------
+ * animation fade-in-tr
+ * ----------------------------------------
+ */
+ @-webkit-keyframes fade-in-tr {
+    0% {
+      -webkit-transform: translateX(50px) translateY(-50px);
+              transform: translateX(50px) translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-tr {
+    0% {
+      -webkit-transform: translateX(50px) translateY(-50px);
+              transform: translateX(50px) translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  
+/* END of Porfofolio card zoom effect */
+
+/* Portofolio Modal Styling */
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-header,
+.modal-footer {
+    border: 1px solid black;
+}
