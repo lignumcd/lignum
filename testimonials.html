@@ -23,8 +23,8 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.plyr.io/3.5.2/plyr.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
 
 
@@ -66,14 +66,57 @@
   </nav>
   <main>
     <div class="container">
-      <div class="row">
+      <div class="row mb-4">
         <div class="col">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+            <video class="embed-responsive-item" preload="metadata"
+              poster="assets/videos/Testimonio Alice Dahbura - Borges (Borges Architecs + Associates)-1lO7N1VVbHs.jpg"
+              id="player" playsinline controls>
+              <source
+                src="assets/videos/Testimonio Alice Dahbura - Borges (Borges Architecs + Associates)-1lO7N1VVbHs.mp4"
+                type="video/mp4" />
+            </video>
           </div>
         </div>
-      </div><!--End row-->
-    </div><!--End container-->
+      </div>
+
+      <!--End row-->
+      <div class="row">
+        <div class="col-md-3">
+          <div class="embed-responsive embed-responsive-16by9">
+            <video class="embed-responsive-item" preload="metadata"
+              poster="assets/videos/Testimonio Keith Menin (Menin Hospitality)-8eh2rcaHKZQ.jpg" id="player" playsinline controls>
+              <source src="assets/videos/Testimonio Keith Menin (Menin Hospitality)-8eh2rcaHKZQ.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="embed-responsive embed-responsive-16by9">
+            <video class="embed-responsive-item" preload="metadata"
+              poster="assets/videos/Testimonio Steven Busto (Studio Busto)-UMalsTgo44Q.jpg" id="player" playsinline controls>
+              <source src="assets/videos/Testimonio Steven Busto (Studio Busto)-UMalsTgo44Q.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="embed-responsive embed-responsive-16by9">
+            <video class="embed-responsive-item" preload="metadata"
+              poster="assets/videos/Testimonio Joel Miron (HDPC, Inc)-bf25bGUMnfQ.jpg" id="player" playsinline controls>
+              <source src="assets/videos/Testimonio Joel Miron (HDPC, Inc)-bf25bGUMnfQ.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        <div class="col-md-3 mx-auto">
+          <div class="embed-responsive embed-responsive-16by9">
+            <video class="embed-responsive-item" preload="metadata"
+            poster="assets/videos/Lignum Custom Design-H4-aN3e_U3k.jpg" id="player" playsinline controls>
+              <source src="assets/videos/Testimonio Roberta Alba (Hospitality Consulting RAID, LLC)-gH8o59yw6-U.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End container-->
   </main>
 
   <footer class="py-5">
@@ -96,127 +139,129 @@
         </div>
         <div class="col-6 col-md d-flex flex-row-reverse">
           <ul class="list-unstyled text-small">
-            <li><a type="button" class="fixed-bottom btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter"
-                class="text-muted" href=""><i class="far fa-envelope fa-2x"></i><br> Get in touch</a></li>
+            <li><a type="button" class="fixed-bottom btn btn-primary" data-toggle="modal"
+                data-target="#exampleModalCenter" class="text-muted" href=""><i class="far fa-envelope fa-2x"></i><br>
+                Get in touch</a></li>
           </ul>
         </div>
       </div>
     </div>
   </footer>
-   <!-- Modal -->
-   <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-   aria-hidden="true">
-   <div class="mw-100 w-75 modal-dialog modal-dialog-centered" role="document">
-     <div class="modal-content">
-       <div class="modal-header">
-         <h2 class="modal-title" id="exampleModalCenterTitle">Get in touch</h2>
-         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-           <span aria-hidden="true">&times;</span>
-         </button>
-       </div>
-       <div class="modal-body">
-         <div class="container">
-           <div class="row text-center mb-3">
-             <div class="col-sm-4">
-               <i class="fas fa-globe-americas fa-2x mb-2"></i>
-               <p>7010 SW 4th St, Miami, FL 33144</p>
-             </div>
-             <div class="col-sm-4">
-               <i class="fas fa-fax fa-2x mb-2"></i>
-               <a class="d-block" href="tel:+786-472-1833 ">Phone: (786)472-1833</a>
-               <a class="d-block" href="tel:+305-397-2204 ">Fax: (305)397-2204</a>
-             </div>
-             <div class="col-sm-4">
-               <i class="far fa-envelope orange fa-2x mb-2"></i>
-               <a class="d-block" href="mailto:info@lignumcd.com ">info@lignumcd.com </a>
-             </div>
-           </div>
-           <form name="testimonials" data-netlify="true">
-             <p class="d-none">
-               <label for="bot-field">Don't fill this out if you are human</label>
-               <input name="bot-field" type="text">
-             </p>
-             <div class="row">
-               <div class="col-md-6 mb-3">
-                 <label class="sr-only" for="name">name</label>
-                 <div class="input-group mb-2">
-                   <div class="input-group-prepend">
-                     <div class="input-group-text"><i class="fas fa-user"></i></div>
-                   </div>
-                   <input name="name" type="text" class="form-control" id="name" placeholder="Your name">
-                 </div>
-               </div>
-               <div class="col-md-6 mb-3">
-                 <label class="sr-only" for="email">email</label>
-                 <div class="input-group mb-2">
-                   <div class="input-group-prepend">
-                     <div class="input-group-text"><i class="fas fa-envelope"></i></div>
-                   </div>
-                   <input name="email" type="email" class="form-control" id="email" placeholder="Your e-mail">
-                 </div>
-               </div>
-             </div>
-             <div class="row">
-               <div class="col-md-6">
-                 <label class="sr-only" for="phone">Phone</label>
-                 <div class="input-group mb-2">
-                   <div class="input-group-prepend">
-                     <div class="input-group-text"><i class="fas fa-phone"></i></div>
-                   </div>
-                   <input name="phone" type="phone" class="form-control" id="phone" placeholder="Phone">
-                 </div>
-               </div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="mw-100 w-75 modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="exampleModalCenterTitle">Get in touch</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <div class="row text-center mb-3">
+              <div class="col-sm-4">
+                <i class="fas fa-globe-americas fa-2x mb-2"></i>
+                <p>7010 SW 4th St, Miami, FL 33144</p>
+              </div>
+              <div class="col-sm-4">
+                <i class="fas fa-fax fa-2x mb-2"></i>
+                <a class="d-block" href="tel:+786-472-1833 ">Phone: (786)472-1833</a>
+                <a class="d-block" href="tel:+305-397-2204 ">Fax: (305)397-2204</a>
+              </div>
+              <div class="col-sm-4">
+                <i class="far fa-envelope orange fa-2x mb-2"></i>
+                <a class="d-block" href="mailto:info@lignumcd.com ">info@lignumcd.com </a>
+              </div>
+            </div>
+            <form name="testimonials" data-netlify="true">
+              <p class="d-none">
+                <label for="bot-field">Don't fill this out if you are human</label>
+                <input name="bot-field" type="text">
+              </p>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label class="sr-only" for="name">name</label>
+                  <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text"><i class="fas fa-user"></i></div>
+                    </div>
+                    <input name="name" type="text" class="form-control" id="name" placeholder="Your name">
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label class="sr-only" for="email">email</label>
+                  <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text"><i class="fas fa-envelope"></i></div>
+                    </div>
+                    <input name="email" type="email" class="form-control" id="email" placeholder="Your e-mail">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <label class="sr-only" for="phone">Phone</label>
+                  <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text"><i class="fas fa-phone"></i></div>
+                    </div>
+                    <input name="phone" type="phone" class="form-control" id="phone" placeholder="Phone">
+                  </div>
+                </div>
 
-               <div class="form-group col-md-6">
-                 <select name="department" id="department" class="form-control">
-                   <option value="">Select a department</option>
-                   <option value="sales">Sales</option>
-                   <option value="other">Other</option>
-                 </select>
-               </div>
+                <div class="form-group col-md-6">
+                  <select name="department" id="department" class="form-control">
+                    <option value="">Select a department</option>
+                    <option value="sales">Sales</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
 
-             </div>
-             <!--END ROW-->
-             <div class="form-group">
-               <label for="exampleFormControlTextarea1"></label>
-               <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"
-                 placeholder="Type your message here"></textarea>
-             </div>
+              </div>
+              <!--END ROW-->
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1"></label>
+                <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"
+                  placeholder="Type your message here"></textarea>
+              </div>
 
-             <div class="row">
-               <div class="col">
-                 <p class="d-inline-block">Subject: </p>
-                 <div class="form-check form-check-inline">
-                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                     value="option1">
-                   <label class="form-check-label" for="inlineRadio1">General</label>
-                 </div>
-                 <div class="form-check form-check-inline">
-                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                     value="option2">
-                   <label class="form-check-label" for="inlineRadio2">Say Hi</label>
-                 </div>
-                 <div class="form-check form-check-inline">
-                   <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
-                     value="option3">
-                   <label class="form-check-label" for="inlineRadio3">Other</label>
-                 </div>
-               </div>
-             </div>
-             <div class="row">
-               <div class="col">
-                 <button type="submit" class="btn btn-primary">Submit</button>
-               </div>
-             </div>
-           </form>
-         </div>
-       </div>
-       <div class="modal-footer">
-         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-       </div>
-     </div>
-   </div>
- </div><!--END MODAL-->
+              <div class="row">
+                <div class="col">
+                  <p class="d-inline-block">Subject: </p>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                      value="option1">
+                    <label class="form-check-label" for="inlineRadio1">General</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                      value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Say Hi</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                      value="option3">
+                    <label class="form-check-label" for="inlineRadio3">Other</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--END MODAL-->
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -228,10 +273,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-  <script src="https://cdn.plyr.io/3.5.2/plyr.polyfilled.js"></script>
-  <script>
-    const player = new Plyr('#player');
-  </script>
   <script src="assets/js/main.js"></script>
 </body>
 

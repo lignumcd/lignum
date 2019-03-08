@@ -53,7 +53,7 @@ a[href^="mailto:"] {
 
 .fixed-bottom {
     left: unset;
-    width: 15%;
+    width: 10%;
 }
 
 /* Porfofolio card zoom effect */
@@ -195,11 +195,11 @@ a[href^="mailto:"] {
 /* END of Porfofolio card zoom effect */
 
 /* Portofolio Modal Styling */
-.modal-content {
+.porto-modal {
     background-color: rgba(0, 0, 0, 0.9);
 }
 
-.modal-header,
-.modal-footer {
+.porto-header,
+.porto-footer {
     border: 1px solid black;
 }
