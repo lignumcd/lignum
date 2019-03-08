@@ -79,45 +79,126 @@
           </div>
         </div>
       </div>
+      <style>
+        .card-body {
+          padding: 2rem 0 1rem 0;
+        }
+
+        .card-title {
+          font-weight: 800;
+        }
+
+        .card-text {
+          text-transform: uppercase;
+          font-weight: 200;
+          font-size: 0.7rem;
+          margin-bottom: 0.5rem;
+        }
+      </style>
 
       <!--End row-->
       <div class="row">
         <div class="col-md-3">
-          <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item" preload="metadata"
-              poster="assets/videos/Testimonio Keith Menin (Menin Hospitality)-8eh2rcaHKZQ.jpg" id="player" playsinline controls>
-              <source src="assets/videos/Testimonio Keith Menin (Menin Hospitality)-8eh2rcaHKZQ.mp4" type="video/mp4" />
-            </video>
-          </div>
+          <a href="#" class="card-info" data-toggle="modal" data-target="#portofolio">
+            <div class="card text-center shadow-lg">
+              <div class="embed-responsive embed-responsive-16by9">
+                <video class="card-img-top" class="embed-responsive-item" preload="metadata"
+                  poster="assets/videos/Testimonio Keith Menin (Menin Hospitality)-8eh2rcaHKZQ.jpg" id="player"
+                  playsinline controls>
+                  <source src="assets/videos/Testimonio Keith Menin (Menin Hospitality)-8eh2rcaHKZQ.mp4"
+                    type="video/mp4" />
+                </video>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Keith Menin</h5>
+                <p class="card-text">Principal</p>
+                <p class="card-text">Menin Hospitality</p>
+              </div>
+            </div>
+          </a>
         </div>
         <div class="col-md-3">
-          <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item" preload="metadata"
-              poster="assets/videos/Testimonio Steven Busto (Studio Busto)-UMalsTgo44Q.jpg" id="player" playsinline controls>
-              <source src="assets/videos/Testimonio Steven Busto (Studio Busto)-UMalsTgo44Q.mp4" type="video/mp4" />
-            </video>
-          </div>
+          <a href="#" class="card-info" data-toggle="modal" data-target="#portofolio">
+            <div class="card text-center shadow-lg">
+              <div class="embed-responsive embed-responsive-16by9">
+                <video class="card-img-top" class="embed-responsive-item" preload="metadata"
+                  poster="assets/videos/Testimonio Steven Busto (Studio Busto)-UMalsTgo44Q.jpg" id="player" playsinline
+                  controls>
+                  <source src="assets/videos/Testimonio Steven Busto (Studio Busto)-UMalsTgo44Q.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Stephen Busto</h5>
+                <p class="card-text">Interior Designer</p>
+                <p class="card-text">Studio Busto</p>
+              </div>
+            </div>
+          </a>
         </div>
         <div class="col-md-3">
-          <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item" preload="metadata"
-              poster="assets/videos/Testimonio Joel Miron (HDPC, Inc)-bf25bGUMnfQ.jpg" id="player" playsinline controls>
-              <source src="assets/videos/Testimonio Joel Miron (HDPC, Inc)-bf25bGUMnfQ.mp4" type="video/mp4" />
-            </video>
-          </div>
+          <a href="#" class="card-info" data-toggle="modal" data-target="#portofolio">
+            <div class="card text-center shadow-lg">
+              <div class="embed-responsive embed-responsive-16by9">
+                <video class="card-img-top" class="embed-responsive-item" preload="metadata"
+                  poster="assets/videos/Testimonio Joel Miron (HDPC, Inc)-bf25bGUMnfQ.jpg" id="player" playsinline
+                  controls>
+                  <source src="assets/videos/Testimonio Joel Miron (HDPC, Inc)-bf25bGUMnfQ.mp4" type="video/mp4" />
+                </video>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Joel Miron</h5>
+                <p class="card-text">HDPC, INC</p>
+                <p class="card-text">Joel Miron</p>
+              </div>
+            </div>
+          </a>
         </div>
+
         <div class="col-md-3 mx-auto">
-          <div class="embed-responsive embed-responsive-16by9">
-            <video class="embed-responsive-item" preload="metadata"
-            poster="assets/videos/Lignum Custom Design-H4-aN3e_U3k.jpg" id="player" playsinline controls>
-              <source src="assets/videos/Testimonio Roberta Alba (Hospitality Consulting RAID, LLC)-gH8o59yw6-U.mp4" type="video/mp4" />
-            </video>
-          </div>
+          <a href="#" class="card-info" data-toggle="modal" data-target="#portofolio">
+            <div class="card text-center shadow-lg">
+              <div class="embed-responsive embed-responsive-16by9">
+                <video class="card-img-top" class="embed-responsive-item" preload="metadata"
+                  poster="assets/videos/Lignum Custom Design-H4-aN3e_U3k.jpg" id="player" playsinline controls>
+                  <source src="assets/videos/Testimonio Roberta Alba (Hospitality Consulting RAID, LLC)-gH8o59yw6-U.mp4"
+                    type="video/mp4" />
+                </video>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Roberta Alba</h5>
+                <p class="card-text">Hospitality Consulting Raid. LLC</p>
+                <p class="card-text">Roberta Alba</p>
+              </div>
+            </div>
+          </a>
         </div>
+
       </div>
     </div>
     <!--End container-->
   </main>
+  <!--Portofolio Modal-->
+  <div class="modal fade" id="portofolio" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+      <div class="modal-content porto-modal">
+        <div class="modal-header porto-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <video class="embed-responsive-item mx-auto d-block" preload="metadata"
+            poster="assets/videos/Lignum Custom Design-H4-aN3e_U3k.jpg" id="player" playsinline controls>
+            <source class="insert_video" src="" type="video/mp4" />
+          </video>
+        </div>
+        <div class="modal-footer porto-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <footer class="py-5">
     <div class="container">
